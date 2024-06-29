@@ -1,0 +1,179 @@
+body {
+  padding: 0;
+  margin: 0;
+  min-height: auto;
+}
+.Container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 6px;
+}
+
+.fieldset {
+  width: 30%;
+  margin-left: 30%;
+  border-radius: 10px;
+}
+.box {
+  background-color: wheat;
+}
+
+.Head {
+  grid-column-start: 1;
+  grid-column-end: 5;
+  height: 6rem;
+  display: flex;
+  padding: 3px 0px 3px 0px;
+  background-color: #8b3c3c;
+}
+
+.Sidbar {
+  grid-row-start: 2;
+  grid-row-end: 5;
+  height: 66rem;
+}
+
+.main {
+  grid-column: 2/5;
+  grid-row: 2/5;
+  background-color: rgb(235, 231, 227);
+}
+
+.Footer {
+  grid-column: 1/5;
+  height: 3rem;
+  background-color: #8b3c3c;
+}
+.imgLogo {
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-top: 10px;
+  margin-left: 10px;
+  box-shadow: 5px 5px 20px 0px rgb(29, 29, 32);
+  border-radius: 10px;
+  cursor: pointer;
+  width: 100px;
+  height: 70px;
+}
+
+.btn-zugangdaten,
+.btn-passwort {
+  width: 7.5em;
+  border-radius: 0px 8px;
+  cursor: pointer;
+}
+.btn-Hife {
+  width: 7em;
+  border-radius: 0px 8px;
+  cursor: pointer;
+}
+.btn-Hife:hover,
+.btn-passwort:hover,
+.btn-zugangdaten:hover {
+  background-color: rgb(227, 227, 252);
+}
+.btn {
+  width: 11em;
+  padding: 4px;
+  cursor: pointer;
+}
+.Title {
+  padding-left: 10px;
+  padding-right: 5px;
+  text-align: center;
+  font-family: Cursive;
+  font-style: italic;
+  color: whitesmoke;
+}
+.listitem {
+  list-style-type: none;
+  padding: 5px;
+  width: 70%;
+}
+.listitem:hover {
+  background-color: rgb(227, 227, 252);
+  border-radius: 7px;
+}
+.Sidbar-link {
+  text-decoration: none;
+  color: black;
+}
+hr {
+  border-top: 1px dashed;
+}
+.line {
+  width: 70%;
+  margin-right: 10em;
+}
+
+.Paragraph1 {
+  padding-left: 20px;
+  padding-bottom: 20px;
+}
+.Footbarlist {
+  display: flex;
+  list-style-type: none;
+  color: whitesmoke;
+}
+.Link {
+  text-decoration: none;
+  color: whitesmoke;
+  padding: 10px;
+}
+.Login-container {
+  text-align: center;
+}
+.loginlist {
+  list-style-type: none;
+}
+.listitme {
+  padding: 3px;
+}
+#pass,
+#login {
+  background-color: rgb(227, 227, 252);
+  border: 0.3px solid;
+  height: 1.5rem;
+}
+#pass {
+  margin-bottom: 10px;
+}
+.Login-btn {
+  margin-top: 5px;
+  padding: 7px;
+  margin-right: 30px;
+}
+.BewerbungsContainer {
+  padding: 20px;
+  margin: 20px;
+  border: 2px solid rgb(253, 253, 251);
+  width: 35%;
+  box-shadow: 5px 5px 5px 5px rgb(211, 200, 200);
+  text-align: center;
+  cursor: pointer;
+}
+.InfoContainer {
+  padding: 20px;
+  margin: 20px;
+  border: 2px solid rgb(253, 253, 251);
+  width: 35%;
+  box-shadow: 5px 5px 5px 5px rgb(211, 200, 200);
+  text-align: center;
+  cursor: pointer;
+}
+
+.main-section {
+  display: flex;
+}
+
+.link-btn {
+  text-decoration: none;
+  color: black;
+  border: 1.2px solid;
+
+  padding: 5px 15px;
+  background-color: rgb(227, 227, 252);
+}
+.link-btn:hover {
+  background-color: rgb(184, 184, 243);
+}

@@ -1,0 +1,33 @@
+.listitem5 {
+  background-color: rgb(227, 227, 252);
+}
+
+.Profilcontainer {
+  margin-left: 10rem;
+}
+.serch {
+  margin-left:0.5rem;
+}
+.Suchen {
+  text-align: center;
+  font-size: 1.5rem;
+
+  border-radius: 10px;
+  display: flex;
+}
+#Suchen-ul {
+  list-style-type: none;
+}
+#form {
+  padding: 0.5rem;
+  width: 17rem;
+}
+#form-select {
+  padding: 0.5rem;
+  width: 18.2rem;
+}
+.suchen-form{
+    display: flex;
+    list-style-type: none;
+    margin-right: 5rem;
+}

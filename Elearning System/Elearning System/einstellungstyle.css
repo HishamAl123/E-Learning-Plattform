@@ -1,0 +1,74 @@
+
+.Einstellungsbox{
+
+    background: rgb(203, 207, 205);
+    border-radius: 10px;       
+}
+.Einstellungclass{
+    display: grid;
+   grid-template-columns: repeat(3 , 1fr);
+    grid-gap: 5px;
+}
+
+.Profilcontainer{
+    list-style-type: none;
+    display: flex;
+   
+}
+.BOX-HEAD{
+    grid-column: 1/4;
+    min-height: 4rem;
+    margin-left: 5px;
+    margin-bottom: 2rem;
+    cursor: pointer;
+
+}
+.admin-img{
+    width: 3rem;
+  padding-right: 5px;
+}
+.pfad1 , .pfad1{
+  text-decoration: none;
+}
+.profileeinstellung{
+    display: flex;
+    list-style-type: none;
+}
+.profile-link{
+    text-decoration: none;
+    padding-right: 5px;
+  
+    cursor: pointer;
+}
+.BOX-MAIN1{
+  
+    cursor: pointer;
+  
+}
+#sectiontitle ,.email-adresse{
+   margin-left: 15px;
+}
+#profildiv{
+ text-align: end;  
+ margin-right: 10px;
+}
+.verschiedenes-title{
+    text-align: center;
+}
+.kursprofilelist{
+    list-style-type: none;
+}
+.BOX-MAIN3{
+    grid-row: 2/4;
+}
+.login-title{
+    padding-left: 10px;
+    
+}
+
+.listitem1{
+    background: none;
+}
+.listitem8{
+  background-color: rgb(227, 227, 252); ;
+}

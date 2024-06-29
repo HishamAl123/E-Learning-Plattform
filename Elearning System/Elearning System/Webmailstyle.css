@@ -1,0 +1,140 @@
+
+
+.listitem2{
+  background: none;
+}
+
+.listitem9{
+    background-color: rgb(227, 227, 252);
+    border-radius: 10px;
+}
+
+.main-section{
+     all: unset;
+    display: grid;
+    grid-template-columns: repeat(4 , 1fr);
+    grid-gap:6px;
+  }
+
+ 
+
+  .kopf{
+    grid-column: 1/5;
+    height: 5rem;
+    background-color: #8B3C3C;
+    display: flex;
+    align-items: center;
+  }
+
+  .slid{
+      grid-row: 2/4;
+      height: 54rem;
+      background-color: rgb(235, 231, 227);
+  }
+  .Herz{
+     grid-row: 2/4;
+     grid-column: 2/5;
+     background: #eef8f9;
+  }
+
+  .E-Mail{
+    font-style: italic;
+    font-size:xx-large;
+    font-family: 'Tangerine', serif;
+    color: whitesmoke;
+    border-radius: 10px;
+    padding: 8px 20px;
+    margin: 5px;
+    box-shadow: 2px 1px 5px 2px rgb(37, 33, 33);
+    font-size: 48px;
+  }
+
+  .WebmailContainer{
+      list-style-type: none;
+      display: flex; 
+  }
+  .buttonitm{
+      padding:4%; 
+  }
+
+  .webbtn{
+    cursor: pointer;
+    width:7rem;
+    padding: 3px;
+  }
+
+  .web-link{
+      text-decoration: none;
+    
+  }
+
+  .Mailitim{
+      padding: 5px;
+      list-style-type: none; 
+  }
+  .Mailitim:hover{
+       background-color: greenyellow;
+  }
+
+  .Mailitim1{
+      background-color: greenyellow;  
+  }
+
+  .plusbtn , .entwürfbtn ,.pobtn , .ordnerbtn, .gesendetbtn , .all{
+      width: 32px;
+     padding-right:20px;
+     cursor: pointer;
+  }
+.feldsection{
+    list-style-type: none;
+    margin: 10px;
+}
+
+.feld1 ,.cc-hinfügen , .feld2{
+
+    padding: 10px;
+}
+
+#Empfänger{
+    margin-left: 24px;
+    width: 60%;
+}
+.css-link{
+    margin: 10px;
+   
+}
+.cc-hinfügen{
+  padding-left: 5rem;
+ 
+}
+#Betreff{
+    width: 60%;
+}
+
+.Messege-schreiben{
+
+    padding: 10px;
+    text-align: center;
+ 
+   
+}
+#messege-link{
+    padding: 15px;
+   
+   
+}
+#Empfänger2{
+  width: 95%;
+  background: white;
+  height:40.2rem;
+  margin-left: 1rem;
+}
+.Textsection{
+    list-style-type: none;
+}
+.Textfeld{
+    border: none;
+}
+#text-field{
+    margin-left: 2rem;
+}

@@ -1,0 +1,42 @@
+.listitem5{
+    background: none;
+}
+.listitem4{
+    background-color: rgb(227, 227, 252);
+}
+
+.Suchen{
+margin-left: 50%;
+font-size: 2.5rem;
+}
+
+#SNR{
+    background-color: rgb(227, 227, 252);
+    border-radius: 5px;
+    text-align: center;
+     width: 18%;
+     padding: 0.5rem;
+}
+.link{
+    text-decoration: none;
+    margin: 0.5rem; 
+}
+
+#form {
+    padding: 1rem;
+    width: 17.6rem;
+  
+  }
+  #form-select {
+    padding: 1rem;
+    width: 20rem;
+  }
+
+  #suchen-btn{
+    padding: 1rem;
+    cursor: pointer;
+  }
+
+  .suchen-form{
+   margin-left: 1rem;
+  }

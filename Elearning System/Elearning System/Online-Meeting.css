@@ -1,0 +1,21 @@
+.listitem4{
+    background: none;
+}
+.listitem7{
+    background-color: rgb(227, 227, 252);
+}
+
+#SNR{
+    background: none;
+    width: 50%;
+    
+}
+
+.ul-online{
+    list-style-type: none;
+}
+
+.suchen-form{
+    all: unset;
+    display: flex;
+}

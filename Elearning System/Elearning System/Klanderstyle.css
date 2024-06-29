@@ -1,0 +1,59 @@
+
+.Monate{
+    background: seagreen;
+    text-align: center;
+    height: 7rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+       
+}
+.listitem9{
+    background: none;
+}
+.sortieren{
+    display: flex;
+    list-style-type: none;
+   
+}
+.kalanderbtn{
+    width: 5rem;
+    padding: 2px;
+    cursor: pointer;
+}
+.kalanderbtn2{
+    background-color: burlywood;
+}
+.stro{
+    padding: 5px;
+    font-size: xxx-large;
+    font-family: 'Tangerine', serif;
+}
+.table{
+  max-width:1500px;
+  min-width:945px;
+}
+.CalanderContainer{
+
+}
+.tablerow{
+  
+}
+table , th , td{
+    border-collapse: collapse;
+border:2px solid black;
+
+}
+
+.oben{
+    display: none;
+    position: fixed;
+    width: 50px;
+    right: 0.8rem;
+    bottom: 3.8rem;
+    cursor: pointer;
+}
+
+.listitem3{
+    background-color: rgb(227, 227, 252);  
+}
